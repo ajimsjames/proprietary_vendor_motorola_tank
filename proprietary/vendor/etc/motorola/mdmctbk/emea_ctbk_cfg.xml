@@ -1,0 +1,162 @@
+<xml>
+    <ctbk_version>35</ctbk_version>
+    <wifi_tx_pwr_mimo>
+          <!-- (10 plimit, unit 1/4 dB)2.4G tx0,2.4G tx1,5G TX0_B1,5G TX0_B2,5G TX0_B3,5G TX0_B4,,5G TX1_B1,5G TX1_B2,5G TX1_B3,5G TX1_B4-->
+        <Default index="0" >78,78,68,68,70,68,68,68,70,70</Default> <!--default, Max-->
+        <State1  index="1" >78,78,68,68,70,68,68,68,70,70</State1>  <!--WLAN + WWAN-->
+        <State2  index="2" >78,78,68,68,70,68,68,68,70,70</State2>  <!--DBS + WWAN-->
+        <State3  index="3" >70,70,68,68,70,68,68,68,70,70</State3>  <!--WLAN only, Hand Held(TX0)-->
+        <State4  index="4" >70,70,68,68,70,68,68,68,70,70</State4>  <!--DBS only, Hand Held(TX0)-->
+        <State5  index="5" >70,70,68,68,70,68,68,68,70,70</State5>  <!--WLAN + WWAN, Hand Held(TX0)-->
+        <State6  index="6" >70,70,68,68,70,68,68,68,70,70</State6>  <!--DBS + WWAN, Hand Held(TX0)-->
+        <State7  index="7" >70,70,68,68,70,68,68,68,70,70</State7>  <!--MHS/P2P NonDBS + WWAN-->
+        <State8  index="8" >70,70,68,68,70,68,68,68,70,70</State8>  <!--MHS/P2P DBS + WWAN-->
+        <State9  index="9" >70,70,68,68,70,68,68,68,70,70</State9>  <!--WLAN only, At Head(Earpiece on)-->
+        <State10 index="10">70,70,68,68,70,68,68,68,70,70</State10> <!--DBS only, At Head(Earpiece on)-->
+        <State11 index="11">70,70,68,68,70,68,68,68,70,70</State11> <!--WLAN + WWAN, At Head(Earpiece on)-->
+        <State12 index="12">70,70,68,68,70,68,68,68,70,70</State12> <!--DBS + WWAN, At Head(Earpiece on)-->
+        <State13 index="13">70,70,68,68,70,68,68,68,70,70</State13> <!--WLAN only, Body Worn(OB5)-->
+        <State14 index="14">70,70,68,68,70,68,68,68,70,70</State14> <!--DBS only, Body Worn(OB5)-->
+        <State15 index="15">70,70,68,68,70,68,68,68,70,70</State15> <!--WLAN + WWAN, Body Worn(OB5)-->
+        <State16 index="16">70,70,68,68,70,68,68,68,70,70</State16> <!--DBS + WWAN, Body Worn(OB5)-->
+        <State17 index="17">78,78,68,68,70,68,68,68,70,70</State17> <!--WLAN only, Free Space/Tabletop(USB Connected)-->
+        <State18 index="18">78,78,68,68,70,68,68,68,70,70</State18> <!--DBS only, Free Space/Tabletop(USB Connected)-->
+        <State19 index="19">78,78,68,68,70,68,68,68,70,70</State19> <!--WLAN + WWAN, Free Space/Tabletop(USB Connected)-->
+        <State20 index="20">78,78,68,68,70,68,68,68,70,70</State20> <!--DBS + WWAN, Free Space/Tabletop(USB Connected)-->
+        <State21 index="21">78,78,68,68,70,68,68,68,70,70</State21> <!--DBS only, default-->
+        <State22 index="22">70,70,68,68,70,68,68,68,70,70</State22> <!--Sensor failure-->
+    </wifi_tx_pwr_mimo>
+
+    <fcc_wifi_tx_pwr_mimo>
+          <!-- (10 plimit, unit 1/4 dB)2.4G tx0,2.4G tx1,5G TX0_B1,5G TX0_B2,5G TX0_B3,5G TX0_B4,,5G TX1_B1,5G TX1_B2,5G TX1_B3,5G TX1_B4-->
+        <Default index="0" >80,80,72,72,72,72,72,72,72,72</Default> <!--default, Max-->
+        <State1  index="1" >80,80,72,72,72,72,72,72,72,72</State1>  <!--WLAN + WWAN-->
+        <State2  index="2" >80,80,72,72,72,72,72,72,72,72</State2>  <!--DBS + WWAN-->
+        <State3  index="3" >76,76,70,68,66,70,70,68,66,70</State3>  <!--WLAN only, Hand Held(TX0)-->
+        <State4  index="4" >76,76,70,68,66,70,70,68,66,70</State4>  <!--DBS only, Hand Held(TX0)-->
+        <State5  index="5" >56,56,46,48,46,44,46,48,46,44</State5>  <!--WLAN + WWAN, Hand Held(TX0)-->
+        <State6  index="6" >56,56,46,48,46,44,46,48,46,44</State6>  <!--DBS + WWAN, Hand Held(TX0)-->
+        <State7  index="7" >62,62,48,72,72,44,48,72,72,44</State7>  <!--MHS/P2P NonDBS + WWAN-->
+        <State8  index="8" >62,62,48,72,72,44,48,72,72,44</State8>  <!--MHS/P2P DBS + WWAN-->
+        <State9  index="9" >70,70,54,54,52,52,54,54,52,52</State9>  <!--WLAN only, At Head(Earpiece on)-->
+        <State10 index="10">70,70,54,54,52,52,54,54,52,52</State10> <!--DBS only, At Head(Earpiece on)-->
+        <State11 index="11">60,60,40,40,38,34,40,40,38,34</State11> <!--WLAN + WWAN, At Head(Earpiece on)-->
+        <State12 index="12">60,60,40,40,38,34,40,40,38,34</State12> <!--DBS + WWAN, At Head(Earpiece on)-->
+        <State13 index="13">70,70,62,62,56,60,62,62,56,60</State13> <!--WLAN only, Body Worn(OB5)-->
+        <State14 index="14">70,70,62,62,56,60,62,62,56,60</State14> <!--DBS only, Body Worn(OB5)-->
+        <State15 index="15">62,62,46,46,46,46,46,46,46,46</State15> <!--WLAN + WWAN, Body Worn(OB5)-->
+        <State16 index="16">62,62,46,46,46,46,46,46,46,46</State16> <!--DBS + WWAN, Body Worn(OB5)-->
+        <State17 index="17">80,80,72,72,72,72,72,72,72,72</State17> <!--WLAN only, Free Space/Tabletop(USB Connected)-->
+        <State18 index="18">80,80,72,72,72,72,72,72,72,72</State18> <!--DBS only, Free Space/Tabletop(USB Connected)-->
+        <State19 index="19">80,80,72,72,72,72,72,72,72,72</State19> <!--WLAN + WWAN, Free Space/Tabletop(USB Connected)-->
+        <State20 index="20">80,80,72,72,72,72,72,72,72,72</State20> <!--DBS + WWAN, Free Space/Tabletop(USB Connected)-->
+        <State21 index="21">80,80,72,72,72,72,72,72,72,72</State21> <!--DBS only, default-->
+        <State22 index="22">56,56,40,40,38,34,40,40,38,34</State22> <!--Sensor failure-->
+    </fcc_wifi_tx_pwr_mimo>
+    <fcc_country_mcc_list>310,311,312,313,314,315,316,722,716,730,732,330,736,404,405,302,450</fcc_country_mcc_list>
+
+    <wifi_tx_pwr_mimo_6g_bdf_index>
+          <!-- BDF table index for wifi 6G -->
+        <Default index="0" >44</Default> <!--default, Max-->
+        <State1  index="1" >44</State1>  <!--WLAN + WWAN-->
+        <State2  index="2" >44</State2>  <!--DBS + WWAN-->
+        <State3  index="3" >44</State3>  <!--WLAN only, Hand Held(TX0)-->
+        <State4  index="4" >44</State4>  <!--DBS only, Hand Held(TX0)-->
+        <State5  index="5" >44</State5>  <!--WLAN + WWAN, Hand Held(TX0)-->
+        <State6  index="6" >44</State6>  <!--DBS + WWAN, Hand Held(TX0)-->
+        <State7  index="7" >44</State7>  <!--MHS/P2P NonDBS + WWAN-->
+        <State8  index="8" >44</State8>  <!--MHS/P2P DBS + WWAN-->
+        <State9  index="9" >44</State9>  <!--WLAN only, At Head(Earpiece on)-->
+        <State10 index="10">44</State10> <!--DBS only, At Head(Earpiece on)-->
+        <State11 index="11">44</State11> <!--WLAN + WWAN, At Head(Earpiece on)-->
+        <State12 index="12">44</State12> <!--DBS + WWAN, At Head(Earpiece on)-->
+        <State13 index="13">44</State13> <!--WLAN only, Body Worn(OB5)-->
+        <State14 index="14">44</State14> <!--DBS only, Body Worn(OB5)-->
+        <State15 index="15">44</State15> <!--WLAN + WWAN, Body Worn(OB5)-->
+        <State16 index="16">44</State16> <!--DBS + WWAN, Body Worn(OB5)-->
+        <State17 index="17">44</State17> <!--WLAN only, Free Space/Tabletop(USB Connected)-->
+        <State18 index="18">44</State18> <!--DBS only, Free Space/Tabletop(USB Connected)-->
+        <State19 index="19">44</State19> <!--WLAN + WWAN, Free Space/Tabletop(USB Connected)-->
+        <State20 index="20">44</State20> <!--DBS + WWAN, Free Space/Tabletop(USB Connected)-->
+        <State21 index="21">44</State21> <!--DBS only, default-->
+        <State22 index="22">44</State22> <!--Sensor failure-->
+    </wifi_tx_pwr_mimo_6g_bdf_index>
+
+    <bt_tx_pwr>
+        <!--tip1. The bt tx power value of cap is in units of 0.25 dBm -->
+        <!--tip2. The typical range is between 0 and 80 units (i.e. 0 to 20 dBm) -->
+        <!--tip3. bt_tx_pwr state count same with wifi_tx_pwr and  wifi_tx_pwr_mimo -->
+        <!--  BR, EDR , LE -->
+        <Default index="0" >40,40,40</Default> <!--default, Max-->
+        <State1  index="1" >40,40,40</State1>  <!--BT + WLAN + WWAN-->
+        <State2  index="2" >40,40,40</State2>  <!--BT + DBS + WWAN-->
+        <State3  index="3" >40,40,40</State3>  <!--BT + WLAN only, Hand Held(TX0)-->
+        <State4  index="4" >40,40,40</State4>  <!--BT + DBS only, Hand Held(TX0)-->
+        <State5  index="5" >40,40,40</State5>  <!--BT + WLAN + WWAN, Hand Held(TX0)-->
+        <State6  index="6" >40,40,40</State6>  <!--BT + DBS + WWAN, Hand Held(TX0)-->
+        <State7  index="7" >31,31,31</State7>  <!--BT + MHS/P2P NonDBS + WWAN-->
+        <State8  index="8" >31,31,31</State8>  <!--BT + MHS/P2P DBS + WWAN-->
+        <State9  index="9" >31,31,31</State9>  <!--BT + WLAN only, At Head(Earpiece on)-->
+        <State10 index="10">31,31,31</State10> <!--BT + DBS only, At Head(Earpiece on)-->
+        <State11 index="11">31,31,31</State11> <!--BT + WLAN + WWAN, At Head(Earpiece on)-->
+        <State12 index="12">31,31,31</State12> <!--BT + DBS + WWAN, At Head(Earpiece on)-->
+        <State13 index="13">31,31,31</State13> <!--BT + WLAN only, Body Worn(OB5)-->
+        <State14 index="14">31,31,31</State14> <!--BT + DBS only, Body Worn(OB5)-->
+        <State15 index="15">31,31,31</State15> <!--BT + WLAN + WWAN, Body Worn(OB5)-->
+        <State16 index="16">31,31,31</State16> <!--BT + DBS + WWAN, Body Worn(OB5)-->
+        <State17 index="17">40,40,40</State17> <!--BT + WLAN only, Free Space/Tabletop(USB Connected)-->
+        <State18 index="18">40,40,40</State18> <!--BT + DBS only, Free Space/Tabletop(USB Connected)-->
+        <State19 index="19">40,40,40</State19> <!--BT + WLAN + WWAN, Free Space/Tabletop(USB Connected)-->
+        <State20 index="20">40,40,40</State20> <!--BT + DBS + WWAN, Free Space/Tabletop(USB Connected)-->
+        <State21 index="21">40,40,40</State21> <!--BT + DBS only, default-->
+        <State22 index="22">31,31,31</State22> <!--BT + Sensor failure-->
+    </bt_tx_pwr>
+    <bt_tx_pwr_wifi_off>
+        <!--tip1. The bt tx power value of cap is in units of 0.25 dBm -->
+        <!--tip2. The typical range is between 0 and 80 units (i.e. 0 to 20 dBm) -->
+        <!--tip3. bt_tx_pwr state count same with wifi_tx_pwr and  wifi_tx_pwr_mimo -->
+        <!--  BR, EDR , LE -->
+        <Default index="0" >40,40,40</Default> <!--default, Max-->
+        <State1  index="1" >40,40,40</State1>  <!--BT + WWAN-->
+        <State2  index="2" >40,40,40</State2>  <!--no use-->
+        <State3  index="3" >40,40,40</State3>  <!--no use-->
+        <State4  index="4" >40,40,40</State4>  <!--no use-->
+        <State5  index="5" >40,40,40</State5>  <!--no use-->
+        <State6  index="6" >40,40,40</State6>  <!--no use-->
+        <State7  index="7" >40,40,40</State7>  <!--no use-->
+        <State8  index="8" >40,40,40</State8>  <!--no use-->
+        <State9  index="9" >31,31,31</State9>  <!--BT only, At Head(Earpiece on)-->
+        <State10 index="10">31,31,31</State10> <!--no use-->
+        <State11 index="11">31,31,31</State11> <!--BT + WWAN, At Head(Earpiece on)-->
+        <State12 index="12">31,31,31</State12> <!--no use-->
+        <State13 index="13">31,31,31</State13> <!--BT only, Body Worn(OB5)-->
+        <State14 index="14">31,31,31</State14> <!--no use-->
+        <State15 index="15">31,31,31</State15> <!--BT + WWAN, Body Worn(OB5)-->
+        <State16 index="16">31,31,31</State16> <!--no use-->
+        <State17 index="17">40,40,40</State17> <!--BT only, Free Space/Tabletop(USB Connected)-->
+        <State18 index="18">40,40,40</State18> <!--no use-->
+        <State19 index="19">40,40,40</State19> <!--BT + WWAN, Free Space/Tabletop(USB Connected)-->
+        <State20 index="20">40,40,40</State20> <!--no use-->
+        <State21 index="21">40,40,40</State21> <!--no use-->
+        <State22 index="22">31,31,31</State22> <!--BT + Sensor failure-->
+    </bt_tx_pwr_wifi_off>
+
+    <sar_sensors>
+        <sensor type="prox_front"           index="0">stk_stk3acx Proximity Sensor Wakeup</sensor>
+        <sensor type="prox_back"            index="1">null</sensor>
+        <!--from back view-->
+        <sensor type="cap_bottom"           index="2">Moto CapSense Ch0</sensor> <!--ANT0/2-->
+        <sensor type="cap_top_right"        index="3">Moto CapSense Ch1</sensor> <!--ANT1/4-->
+        <sensor type="cap_top_left"         index="4">Moto CapSense Ch2</sensor> <!--ANT3/7/8/9-->
+    </sar_sensors>
+    <!--OB5 config: 3 = 0000011b (cap_bottom|cap_top_right)-->
+    <ob5_sensor_config>3</ob5_sensor_config>
+
+    <!--Wifi 2GHz TX0 config: 4 = 0000100b (cap_top_left)-->
+    <wifi_tx0_sensor_config_2ghz>4</wifi_tx0_sensor_config_2ghz>
+
+    <!--Wifi 5GHz TX0 config: 4 = 0000100b (cap_top_left)-->
+    <wifi_tx0_sensor_config_5ghz>4</wifi_tx0_sensor_config_5ghz>
+
+    <sound_card_name>diwaliqrdsndcar</sound_card_name>
+</xml>
