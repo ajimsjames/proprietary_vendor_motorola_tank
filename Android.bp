@@ -2078,6 +2078,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
