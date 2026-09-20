@@ -3306,10 +3306,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/tank/proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.camera3.xml \
     vendor/motorola/tank/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml \
     vendor/motorola/tank/proprietary/recovery/root/vendor/firmware/goodix-csot-gt9916P-24092509-66f40f13-tank.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/goodix-csot-gt9916P-24092509-66f40f13-tank.bin \
-    vendor/motorola/tank/proprietary/recovery/root/vendor/firmware/goodix-tianma-gt9916P-2409250b-66f40d0c-tank.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/goodix-tianma-gt9916P-2409250b-66f40d0c-tank.bin \
-    vendor/motorola/tank/proprietary/system/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
     vendor/motorola/tank/proprietary/system/etc/permissions/moto-core_services.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-core_services.xml \
-    vendor/motorola/tank/proprietary/system/etc/permissions/moto-settings.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-settings.xml \
     vendor/motorola/tank/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/motorola/tank/proprietary/vendor/etc/acdbdata/diwali_qrd/QRD_diwali_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_qrd/QRD_diwali_acdb_cal.acdb \
     vendor/motorola/tank/proprietary/vendor/etc/acdbdata/diwali_qrd/QRD_diwali_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/diwali_qrd/QRD_diwali_workspaceFileXml.qwsp \
@@ -3770,13 +3767,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.aon@1.0-service-impl \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     vendor.zuialarm.hardware.alarm@1.0 \
-    MotoSignatureApp \
     MotCamera3AI \
     MotCamera4 \
-    MotorolaSettingsProvider \
-    com.motorola.motosignature \
     moto-core_services \
-    moto-settings \
     vendor.goodix.hardware.biometrics.fingerprint@2.1-service.xml \
     capsense_reset \
     android.hardware.biometrics.fingerprint@2.1-goodixservice \
